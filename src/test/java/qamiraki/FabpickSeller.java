@@ -180,10 +180,13 @@ public class FabpickSeller {
 	       File file = new File("./Screenshot/image1234567@#$.png");
 	       ImageIO.write(image, "png", file);
 	     robot.getPixelColor(200, 300);
+	   
 	     System.out.println(robot.getPixelColor(200, 300));
 	     robot.getPixelColor(300, 300);
 	     System.out.println(robot.getPixelColor(108, 320));
 		  
+	     
+	     
 		  
 		  
 		  
