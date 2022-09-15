@@ -184,12 +184,7 @@ public class FabpickSeller {
 	     System.out.println(robot.getPixelColor(200, 300));
 	     robot.getPixelColor(300, 300);
 	     System.out.println(robot.getPixelColor(108, 320));
-	     System.out.println(robot.hashCode());
-		  
-	     
-	     
-		  
-		  
+	     System.out.println(robot.hashCode()); 
 		  
 	  }
   @BeforeTest
